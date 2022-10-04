@@ -105,10 +105,9 @@ button:hover{
 @media (max-width:767px){
     #heading{
         position: fixed;
-        line-height: 5.8rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 25px;
         /* align-items: center; */
         align-content: center;
     }
@@ -174,7 +173,7 @@ button:hover{
     #status{
         position: fixed;
         top: 80vh;
-        left: 5rem;
+        left: 3rem;
     }
 
 }
