@@ -108,7 +108,7 @@ button:hover{
         line-height: 5.8rem;
         margin-left: 2rem;
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         /* align-items: center; */
         align-content: center;
     }
@@ -173,7 +173,7 @@ button:hover{
 
     #status{
         position: fixed;
-        top: 85vh;
+        top: 80vh;
         left: 5rem;
     }
 
