@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+#heading{
+    line-height: 5.8rem;
+    margin-left: 25rem;
+    font-weight: 400;
+    /* align-items: center; */
+    align-content: center;
+}
+#displayitem{
+    display: flex;
+    position: fixed;
+    top: 30vh;
+    /* flex-direction: row; */
+}
+
+#comp{
+    position: fixed;
+    top: 25vh;
+    left: 20rem;
+}
+#vs{
+    position: fixed;
+    top: 25vh;
+    left: 35rem;
+}
+#user{
+    position: fixed;
+    top: 25vh;
+    left: 50rem;
+}
+
+#mycompimg{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+
+#myuserimg{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+
+
+#optionselection{
+    position: fixed;
+    display: flex;
+    top: 90vh;
+    left: 50rem;
+}
+
+.image{
+    display: flex;
+    position:fixed;
+    top: 30vh;
+    left: 12rem;
+}
+
+#status{
+    position: fixed;
+    top: 85vh;
+    left: 15rem;
+}
+
+#User_name{
+    position: fixed;
+    top: 15vh;
+    font-size: 22px;
+    left: 33rem;
+}
+
+#score{
+    position: fixed;
+    top: 15vh;
+    left: 10rem;
+}
+
+button{
+    border-style: none;
+    margin: auto 7px;
+    border-radius: 1rem;
+    padding: 5px 7px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(255, 88, 27);
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(250, 131, 88);
+}
+
+
+@media screen and (max-width:767px){
+    #heading{
+        position: fixed;
+        line-height: 9.8rem;
+        margin-left: 2rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+        /* align-items: center; */
+        align-content: center;
+    }
+    
+    #comp{
+        position: fixed;
+        top: 23vh;
+        left: 10rem;
+    }
+
+    #vs{
+        position: fixed;
+        top: 45vh;
+        left: 5rem;
+    }
+
+    #user{
+        position: fixed;
+        top: 65vh;
+        left: 10rem;
+    }
+
+    #score{
+        position: fixed;
+        top: 14vh;
+        left: 5rem;
+    }
+
+    #mycompimg{
+        display: block;
+        width: 200px;
+        height: 150px;
+    }
+    
+    #myuserimg{
+        display: block;
+        width: 200px;
+        height: 150px;
+    }
+
+    .image{
+        display: flex;
+        flex-direction: column;
+        position:fixed;
+        top: 27vh;
+        left: 7rem;
+    }
+    
+    #optionselection{
+        position: fixed;
+        display: flex;
+        top: 70vh;
+        left: 6rem;
+    }
+
+    #status{
+        position: fixed;
+        top: 80vh;
+        left: 5rem;
+    }
+
+}
