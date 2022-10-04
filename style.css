@@ -102,15 +102,22 @@ button:hover{
 }
 
 
-@media screen and (max-width:767px){
+@media (max-width:767px){
     #heading{
         position: fixed;
-        line-height: 9.8rem;
+        line-height: 5.8rem;
         margin-left: 2rem;
         font-weight: 400;
         font-size: 1.5rem;
         /* align-items: center; */
         align-content: center;
+    }
+
+    #User_name{
+        position: fixed;
+        top: 9vh;
+        font-size: 22px;
+        left: 7rem;
     }
     
     #comp{
@@ -127,7 +134,7 @@ button:hover{
 
     #user{
         position: fixed;
-        top: 65vh;
+        top: 70vh;
         left: 10rem;
     }
 
@@ -160,13 +167,13 @@ button:hover{
     #optionselection{
         position: fixed;
         display: flex;
-        top: 70vh;
+        top: 75vh;
         left: 6rem;
     }
 
     #status{
         position: fixed;
-        top: 80vh;
+        top: 85vh;
         left: 5rem;
     }
 
