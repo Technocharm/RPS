@@ -105,9 +105,9 @@ button:hover{
 @media (max-width:767px){
     #heading{
         position: fixed;
-        margin-left: 3rem;
+        margin-left: 2rem;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 22px;
         /* align-items: center; */
         align-content: center;
     }
